@@ -3,7 +3,7 @@ import Home from './Pages/Home';
 import MealDetail from './Pages/MealDetail';
 import Header from './components/Header';
 import MealGrid from './components/MealGrid';
-import CategoryPage from "./pages/CategoryPage";
+// import CategoryPage from "./pages/CategoryPage";CategoryPage
 import FavoritesPage from "./pages/FavoritesPage";
 import RandomMealPage from "./pages/RandomMealPage";
 
@@ -16,7 +16,7 @@ function App() {
      <Routes>
        <Route path="/" element={<Home/>} />
        <Route path="/" element={<MealGrid />} />
-       <Route path="/category/:name" element={<CategoryPage />} />
+       {/* <Route path="/category/:name" element={<CategoryPage />} /> */}
        <Route path="/favorites" element={<FavoritesPage />} />
        <Route path="/random" element={<RandomMealPage />} />
        <Route path="/meal/:id" element={<MealDetail />} />
