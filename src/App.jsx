@@ -1,9 +1,9 @@
  import { Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import MealDetail from './Pages/MealDetail';
+import Home from './pages/Home';
+import MealDetail from './pages/MealDetail';
 import Header from './components/Header';
 import MealGrid from './components/MealGrid';
-// import CategoryPage from "./pages/CategoryPage";CategoryPage
+import CategoryPage from "./pages/CategoryPage";CategoryPage
 import FavoritesPage from "./pages/FavoritesPage";
 import RandomMealPage from "./pages/RandomMealPage";
 
