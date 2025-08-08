@@ -2,8 +2,8 @@
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X, Heart } from "lucide-react";
-import ThemeToggle from "@/components/ThemeToggle";
-import useFavorites from "@/lib/useFavorites";
+import ThemeToggle from "@/components/ThemeToggle.jsx";
+import useFavorites from "@/lib/useFavorites.js";
 import logo from "@/assets/logo-1.png";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);

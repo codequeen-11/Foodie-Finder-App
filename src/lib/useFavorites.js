@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getFavorites, toggleFavorite as toggleFavoriteStorage } from "@/lib/localStorage";
+import { getFavorites, toggleFavorite as toggleFavoriteStorage } from "@/lib/localStorage.js";
 
 const useFavorites = () => {
   const [favorites, setFavorites] = useState(getFavorites());

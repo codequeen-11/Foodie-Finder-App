@@ -56,7 +56,7 @@
 
 
 import * as React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils.js";
 
 const Button = React.forwardRef(({ className, ...props }, ref) => (
   <button

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Heart } from "lucide-react";
-import useFavorites from "@/lib/useFavorites";
+import useFavorites from "@/lib/useFavorites.js";
 import { toast } from "sonner";
 
 const RandomMeal = () => {

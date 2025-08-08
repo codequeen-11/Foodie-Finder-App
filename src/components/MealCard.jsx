@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Heart, HeartOff, Utensils } from "lucide-react";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils"
-import { getFavorites, toggleFavorite, isFavorited } from "@/lib/LocalStorage";
+import { getFavorites, toggleFavorite, isFavorited } from "@/lib/LocalStorage.js";
 import { toast } from "sonner";
 
 const MealCard = ({ meal, onUnfavorite }) => {

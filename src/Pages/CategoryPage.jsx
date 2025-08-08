@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import MealGrid from "@/components/MealGrid";
+import MealGrid from "@/components/MealGrid.jsx";
 
 const CategoryPage = () => {
   const { name } = useParams(); // Get category name from URL

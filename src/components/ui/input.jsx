@@ -24,7 +24,7 @@
 // export { Input }
 
 import * as React from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils.js";
 
 const Input = React.forwardRef(({ className, ...props }, ref) => (
   <input
