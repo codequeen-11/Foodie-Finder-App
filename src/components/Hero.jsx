@@ -1,5 +1,5 @@
  
-import SearchBar from "./SearchBar";
+import SearchBar from "@/SearchBar";
 
 const Hero = ({ onResults }) => {
   return (

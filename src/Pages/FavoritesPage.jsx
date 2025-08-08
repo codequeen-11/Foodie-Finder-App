@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { getFavorites } from "@/lib/localStorage";
 import axios from "axios";
-import MealGrid from "../components/MealGrid";
+import MealGrid from "@/components/MealGrid";
 import { Filter } from "lucide-react";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X, Heart } from "lucide-react";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "@/ThemeToggle";
 import useFavorites from "@/lib/useFavorites";
 import logo from "@/assets/logo-1.png";
 const Header = () => {

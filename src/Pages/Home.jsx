@@ -1,9 +1,9 @@
 
 import { useEffect, useRef, useState } from "react";
-import Hero from "../components/Hero";
-import FeaturedCarousel from "../components/FeaturedCarousel";
-import CategoryGrid from "../components/CategoryGrid";
-import MealGrid from "../components/MealGrid";
+import Hero from "@/components/Hero";
+import FeaturedCarousel from "@/components/FeaturedCarousel";
+import CategoryGrid from "@/components/CategoryGrid";
+import MealGrid from "@/components/MealGrid";
 import axios from "axios";
 
 const Home = () => {
