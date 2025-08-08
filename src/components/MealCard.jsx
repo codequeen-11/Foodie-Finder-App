@@ -91,4 +91,4 @@ const handleFavorite = (e) => {
   );
 };
 
-export default MealCard;
+export default MealCard;  

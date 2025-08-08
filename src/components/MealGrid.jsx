@@ -1,5 +1,7 @@
 
-import MealCard from "@/MealCard";
+// import MealCard from "@/MealCard";
+import MealCard from "@/components/MealCard";
+
 
 const MealSkeleton = () => (
   <div className="animate-pulse bg-orange-100 dark:bg-orange-800 rounded-xl h-[330px] shadow" />
